@@ -101,23 +101,8 @@ body {
   }
   
   /* Nouveau bloc pour un autre repository GitHub */
-  .github-link {
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .github-link h2 {
-    color: #1a73e8;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-  }
-  
-  /* Bloc supplémentaire avec un autre lien */
   .extra-block {
-    background-color: #f0f4f8;
+    background-color: #f9f9f9;
     border-radius: 10px;
     padding: 20px;
     margin-top: 30px;
@@ -128,6 +113,11 @@ body {
     color: #1a73e8;
     font-size: 1.8rem;
     margin-bottom: 15px;
+  }
+  
+  /* Bloc supplémentaire avec un autre lien */
+  .additional-block {
+    margin-top: 50px; /* Espace entre le bloc central et ce bloc */
   }
   
   /* Footer */
