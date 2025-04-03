@@ -131,5 +131,7 @@ body {
     margin-top: 30px;
     font-size: 0.9rem;
     color: #888;
+    text-align: center; /* Centrer le texte dans le footer */
+    width: 100%; /* S'assurer qu'il prend toute la largeur */
   }
   
