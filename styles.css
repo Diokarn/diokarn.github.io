@@ -64,7 +64,7 @@ body {
   
   /* Titre */
   h1 {
-    color: #1a73e8;
+    color: #881ae8;
     font-size: 2.5rem;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -114,7 +114,7 @@ body {
   }
   
   .extra-block h2 {
-    color: #1a73e8;
+    color: #881ae8;
     font-size: 1.8rem;
     margin-bottom: 15px;
   }
