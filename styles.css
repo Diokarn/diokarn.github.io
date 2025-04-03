@@ -136,3 +136,10 @@ body {
     width: 100%; /* S'assurer qu'il prend toute la largeur */
   }
   
+  .main-links {
+    background-color: #f9f9f9; /* Même couleur que .extra-block */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Effet surélevé */
+    margin-top: 30px;
+  }
