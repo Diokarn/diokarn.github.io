@@ -1,18 +1,14 @@
 /* Fond général */
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #e0eafc, #cfdef3);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centrer horizontalement */
-    align-items: flex-start;
-    height: 100vh;
-    color: #333;
-    text-align: center;
-    flex-direction: column;
-    padding-top: 60px; /* Ajoute uniquement du padding en haut */
-  }
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Change de flex-start à center */
+  flex-direction: column;
+}
   
   /* Menu de navigation */
   header {
