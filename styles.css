@@ -73,11 +73,12 @@ body {
   
   /* Image d'introduction */
   .intro-image img {
-    width: 100%;
-    height: auto;
+    width: 50%; /* Réduit l'image à 50% de la largeur du conteneur */
+    max-width: 300px; /* Empêche l'image d'être trop grande */
+    height: auto; /* Garde le bon ratio */
     border-radius: 8px;
     margin-bottom: 30px;
-  }
+}
   
   /* Liste de projets */
   ul {
