@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrer horizontalement */
     align-items: flex-start;
     height: 100vh;
     color: #333;
@@ -53,10 +53,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 80%;
-    max-width: 800px;
+    max-width: 800px; /* Taille max du bloc */
     padding: 30px;
     margin-top: 80px;
     text-align: center;
+    /* Centrer horizontalement avec margin automatique */
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* Titre */
@@ -118,6 +121,9 @@ body {
   /* Bloc supplémentaire avec un autre lien */
   .additional-block {
     margin-top: 50px; /* Espace entre le bloc central et ce bloc */
+    /* Centrer horizontalement avec margin automatique */
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* Footer */
