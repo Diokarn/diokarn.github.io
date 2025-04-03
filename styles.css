@@ -11,7 +11,7 @@ body {
     color: #333;
     text-align: center;
     flex-direction: column;
-    padding-top: 60px; /* Ajuste selon la hauteur du header */
+    padding-top: 60px; /* Ajoute uniquement du padding en haut */
   }
   
   /* Menu de navigation */
